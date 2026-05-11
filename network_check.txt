@@ -1,4 +1,16 @@
-мая 11 18:31:53 mephi-2026.domain.local systemd[1]: Starting nginx.service - The nginx HTTP and reverse proxy server...
-мая 11 18:31:53 mephi-2026.domain.local nginx[2564]: nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-мая 11 18:31:53 mephi-2026.domain.local nginx[2564]: nginx: configuration file /etc/nginx/nginx.conf test is successful
-мая 11 18:31:53 mephi-2026.domain.local systemd[1]: Started nginx.service - The nginx HTTP and reverse proxy server.
+PING 192.168.31.1 (192.168.31.1) 56(84) bytes of data.
+64 bytes from 192.168.31.1: icmp_seq=1 ttl=64 time=0.486 ms
+64 bytes from 192.168.31.1: icmp_seq=2 ttl=64 time=0.615 ms
+64 bytes from 192.168.31.1: icmp_seq=3 ttl=64 time=0.486 ms
+64 bytes from 192.168.31.1: icmp_seq=4 ttl=64 time=0.537 ms
+--- 192.168.31.1 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3063ms
+rtt min/avg/max/mdev = 0.486/0.531/0.615/0.052 ms
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=64 time=19.1 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=64 time=19.9 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=64 time=19.2 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=64 time=19.0 ms
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+rtt min/avg/max/mdev = 19.032/19.299/19.916/0.361 ms
